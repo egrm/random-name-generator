@@ -12,7 +12,7 @@ Clone the repo or download via the zip file.
 
 Inside the directory run:
 
-```ruby
+```shell
 ruby script.rb
 ```
 
