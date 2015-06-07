@@ -37,9 +37,3 @@ class NameGenerator
     string[random_start..random_end].capitalize
   end
 end
-
-generator = NameGenerator.new
-
-name = generator.generate
-
-puts name
