@@ -6,7 +6,6 @@ class NameGenerator
   private
 
   def generate_syllable
-
     consonants = %w{ b c d f g h j k l m n p r s t v w x z }
     vowels = %w{ a o e u i }
 
@@ -14,13 +13,10 @@ class NameGenerator
     letters << consonants.sample
     letters << vowels.sample
     letters << consonants.sample if rand < 0.5
-
-    # letters.shuffle.join
     letters.join
   end
 
   def generate_string
-
     syllables = []
 
     10.times do

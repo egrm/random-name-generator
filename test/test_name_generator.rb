@@ -12,7 +12,6 @@ class TestNameGenerator < Test::Unit::TestCase
     assert @name =~ /^[A-Z][a-z]+$/, "Name should contain valid symbols"
     assert (@name.length >= 3 && @name.length <= 12), "Name length should be between 3 and 12 symbols"
     assert_nil @name =~ /[BCDFGHJKLMNPQRSTVWXZbcdfghjklmnpqrstvwxz]{3,}/, "Should contain no more than 2 consonants in a row"
-
   end
 
   def test_name_is_random
