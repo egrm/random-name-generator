@@ -12,7 +12,7 @@ class NameGenerator
     letters = []
     letters << consonants.sample
     letters << vowels.sample
-    letters << consonants.sample if rand < 0.5
+    letters << consonants.sample if rand < 0.2
     letters.join
   end
 
