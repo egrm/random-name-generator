@@ -28,7 +28,7 @@ class NameGenerator
 
   def generate_name
     string = generate_string
-    random_start = rand(3)
+    random_start = rand(2)
     random_end = rand(random_start + 3..10)
     string[random_start..random_end].capitalize
   end
