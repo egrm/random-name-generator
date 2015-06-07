@@ -6,7 +6,7 @@ class NameGenerator
   private
 
   def generate_syllable
-    consonants = %w{ b c d f g h j k l m n p r s t v w x z }
+    consonants = %w{ b c d f g h j k l m n p q r s t v w x y z }
     vowels = %w{ a o e u i }
 
     letters = []
