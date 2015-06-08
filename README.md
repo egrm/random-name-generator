@@ -5,15 +5,17 @@ Have fun with it.
 
 #### Example output
 
+```
 Sumepa
 Owelid
 Suyohu
 Even
-Liqosir
-Zazem
+Liqosir 
+Zazem 
 Ilacufan
 Ronet
-Elulaz
+Elula
+```
 
 ## Usage
 
