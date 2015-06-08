@@ -20,14 +20,34 @@ Elula
 ## Usage
 
 You need to install ruby (2.0 or better) on your machine.
-If you're using OS X, it's probably preinstalled (ruby 2.0.0 on 10.10.3).
-
-Clone the repo or download via the zip file.
 
 Inside the directory run:
 
-```shell
-ruby script.rb
+```zsh
+ruby generate.rb
+```
+
+And you should get a name, like this:
+
+```zsh
+Uwafo
+```
+
+You can also pass a positive number as an argument
+to generate multiple names:
+
+```zsh
+ruby generate.rb 5
+```
+
+And you should get something like:
+
+```zsh
+Kaqo
+Udevipo
+Loyavero
+Ziconar
+Memtoyn
 ```
 
 Enjoy!
