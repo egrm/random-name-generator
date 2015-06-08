@@ -1,7 +1,19 @@
 # Random Name Generator
 
 Just a simple generator for random names.
-Use it however you want.
+Have fun with it.
+
+#### Example output
+
+Sumepa
+Owelid
+Suyohu
+Even
+Liqosir
+Zazem
+Ilacufan
+Ronet
+Elulaz
 
 ## Usage
 
