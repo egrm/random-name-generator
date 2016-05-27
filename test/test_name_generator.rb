@@ -1,7 +1,7 @@
-require 'test/unit'
+require 'minitest/autorun'
 require_relative '../lib/name_generator.rb'
 
-class TestNameGenerator < Test::Unit::TestCase
+class TestNameGenerator < Minitest::Test
   def setup
     @generator = NameGenerator.new
     @name = @generator.generate
